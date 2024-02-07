@@ -1,6 +1,14 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -19,14 +27,18 @@ body {
 
   margin: 0 auto;
   border-radius: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 3em;
-  box-shadow: 0.8em 0.8em 15px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0.8em 0.8em 15px rgba(0, 0, 0, 0.3);
+          box-shadow: 0.8em 0.8em 15px rgba(0, 0, 0, 0.3);
   -ms-transform: rotate(2.5deg); /* IE 9 */
   -webkit-transform: rotate(2.5deg); /* Chrome, Safari, Opera */
   transform: rotate(2.5deg);
-  -moz-transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -42,14 +54,18 @@ body {
   z-index: -1;
   margin: 0 auto;
   border-radius: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 3em;
-  box-shadow: 0.8em 0.8em 15px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0.8em 0.8em 15px rgba(0, 0, 0, 0.3);
+          box-shadow: 0.8em 0.8em 15px rgba(0, 0, 0, 0.3);
   -ms-transform: rotate(2.5deg); /* IE 9 */
   -webkit-transform: rotate(2.5deg); /* Chrome, Safari, Opera */
   transform: rotate(2.5deg);
-  -moz-transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -69,7 +85,6 @@ h1 {
   -ms-transform: rotate(0deg); /* IE 9 */
   -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
   transform: rotate(0deg);
-  -moz-transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
